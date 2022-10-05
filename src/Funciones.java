@@ -10,8 +10,16 @@ public class Funciones {
     System.out.println(saludo);
   }
 
-  private static void holaMundo() {
+  public static void holaMundo() {
     System.out.println("Hola mundo desde private");
+  }
+
+  // sobrecarga de funciones
+  private static void holaMundo(String name) {
+    System.out.println("Hola mundo desde private" + name);
+  }
+  protected static void holaMundo(String name, String surname) {
+    System.out.println("Hola mundo "+ name + " " + surname);
   }
   private static void holaMundoConNombre(String name) {
     System.out.println("Hola " + name);
@@ -19,5 +27,9 @@ public class Funciones {
 
   private static String devolverHello() {
     return "Hello";
+  }
+
+  public static int sum(int num1, int num2) {
+    return num1 + num2;
   }
 }
