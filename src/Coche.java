@@ -1,3 +1,6 @@
+// public abstract class Coche
+// agregando la palabra abstract solo se puede crear un objeto a partir de
+// las clases hijas, no new Coche, but new CocheElectrico o CocheHibrido
 public class Coche {
 
     // Clases
