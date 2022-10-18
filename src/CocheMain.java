@@ -25,7 +25,10 @@ public class CocheMain {
                 "romero", "js2", 1400d, 4.54, "TXZ");
 
 
-        System.out.println(cocheElectrico);
+        System.out.println(cocheElectrico2);
+
+        cocheElectrico2.acelerar(50);
+        System.out.println(cocheElectrico2);
 
     }
 }
