@@ -21,6 +21,9 @@ public class CocheMain {
         cocheElectrico.fabricante = "Honda";
         cocheElectrico.modelo = "civic";
 
+        CocheElectrico cocheElectrico2 = new CocheElectrico("azul", "alfa " +
+                "romero", "js2", 1400d, 4.54, "TXZ");
+
 
         System.out.println(cocheElectrico);
 
